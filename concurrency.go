@@ -8,7 +8,7 @@ import (
 func main() {
 
 	log.Println("OS : \t\t", runtime.GOOS)
-	log.Println("Artitecture : \t", runtime.GOARCH)
+	log.Println("Architecture : \t", runtime.GOARCH)
 	log.Println("GoRoutines : \t", runtime.NumGoroutine())
 	log.Println("CPU : \t\t", runtime.NumCPU())
 

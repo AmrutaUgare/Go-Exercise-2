@@ -6,10 +6,10 @@ import (
 
 func main() {
 
-	var arr = []int64{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	log.Println("Integer array : ", arr)
+	var intAarray = []uint8{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	log.Println("Integer array : ", intAarray)
 
-	var s_arr = []string{"Pune", "Kolhapur", "Mumbai", "Nashik"}
-	log.Println("String array : ", s_arr)
+	var stringArray = []string{"Pune", "Kolhapur", "Mumbai", "Nashik"}
+	log.Println("String array : ", stringArray)
 
 }

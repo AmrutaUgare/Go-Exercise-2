@@ -8,7 +8,7 @@ type student struct {
 	marks   float32
 }
 
-func (s student) displayInformation() {
+func (s *student) displayInformation() {
 
 	log.Println("Name of student : ", s.name)
 	log.Println("Subject of student : ", s.subject)
