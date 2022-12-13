@@ -1,6 +1,2 @@
-go-workspace.iml
-datatypes.iml
 .idea
-
-
-
+go.mod
